@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Registration Page !!</title>
+</head>
+<body>
+<h1 align=center>Welcome to Employee Registration Page !!</h1>
+<hr>
+<form action="insert" method="post">
+<table>
+<tr>
+	<td>Employee-Id</td>
+	<td><input type="text" name="empId" placeholder="Enter the employee id"></td>
+</tr>
+
+<tr>
+	<td>Employee-Name</td>
+	<td><input type="text" name="empName" placeholder="Enter the employee name"></td>
+</tr>
+
+<tr>
+	<td>Employee-Gender</td>
+	<td>
+	<input type="radio" name="empGen" value="Male">Male
+	<input type="radio" name="empGen" value="Female">Female
+	</td>
+</tr>
+
+<tr>
+	<td>Employee-Address</td>
+	<td><textarea name="empAddr" placeholder="Enter the Employee Address"></textarea></td>
+</tr>
+
+<tr>
+	<td colspan=2><input type="submit" name="submit" value="Register"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
